@@ -1,0 +1,42 @@
+# Apunts
+### Resum general del tema
+En aquest tema es tracta **l'optimizació** enfocat en gran par al ***"Code smell"*** que es una part major de la unitat, es toquen temes com **exemples comuns de com es genera** i obviament **com eliminar-lo**. En aquest apartat també esta continguda la **refactorizació** com a part de l'eliminació del ***"Code smell"***, seguit també s'integra la **documentació** aquesta mateixa tenint un petit apartat sobre els **tipus de documentació** i els seus formats. Finalment existeix el **control de versions** que te un enfoc cap a el fet de que **no totes les actualizacions futures funcionaran en versions pasades i viceversa**.
+
+## Optimizació
+#### "Code smell"
+El ***"Code smell"*** o "hediondez del código" en castella es com se li diu al tipus de problemes que pot tenir un codi que fan que **tot i que el codi funcioni** en un futur es molt possible que ens **trobem amb errors majors generats per aquests primers** o aquests tambe poden simplement **fer mes dificil traballar amb el codi**, tant en la actualitat com en el futur.
+#### Analisi de Codi
+Existeixen **dos tipus** de analisi de codi:
++ **Analisi dinamic**
+    + En els que interpretem tot el codi en funcionament
+    + També anomenats ***"Unit Tests"***
++ **Analisi estatic**
+    + En els que nomes interpretem la pagina de codi que tenim
+    + També anomenats ***"Linters"***
+
+##### Refactorizació
+Consisteix en **canviar l'estructura del codi sense canviar el seu funcionament** seguint tecniques com:
+
++ Renombrar valriables enganyoses o no descriptives
++ Evitar la duplicacio de codi amb metodes
++ Eliminar codi inaccesible
++ Eliminar codi redundant
++ Eliminar codi mort
++ I més
+
+### Documentació
+#### Insignies
+Petites marques que indiquen la qualitat i/o la versio que te algun programa.
+#### Tipus de Documentació
+**Documentació de codi**
+Documentació feta per entendre mes facilment el codi
+
+**Documentació tecnica**
+    Documentació per al manteniment i/o modificació avançada del programa
+
+**Documentació de usuari**
+    Documentació par al us normal i corrent del programa
+
+### Control de versions
+Concepte important:  **no totes les actualizacions futures funcionaran en versions pasades i viceversa**.
+
